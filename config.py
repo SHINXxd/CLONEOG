@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://lodukuwaraboy:Qwerty12@cluster0.mfey0ob.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "blade")
+DB_NAME = os.environ.get("DATABASE_NAME", "blade999")
 
 #force sub channel id, use "," between each id and add "-100" as prefix
 try:
