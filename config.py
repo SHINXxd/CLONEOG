@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6726266998:AAHWrjYWxPNlojkq89wkpAsIYkhYCO5lW0M")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6779117222:AAEmFVZYG7qImfoymp7Cb-DtWIAg2JsmLE0")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27570599"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "27570599"))
 API_HASH = os.environ.get("API_HASH", "0329a786739cb73a2b1176582c5e8376")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002133731342"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002046102334"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5468078784"))
@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "blade999")
 
 #force sub channel id, use "," between each id and add "-100" as prefix
 try:
-    FORCE_SUB_CHANNELS=[-1001936951058, -1002127474493, -1001956017016]
+    FORCE_SUB_CHANNELS=[-1001996856946, -1002062494458, -1001844173646]
     for x in (os.environ.get("FORCE_SUB_CHANNELS", "").split()):
         FORCE_SUB_CHANNELS.append(int(x))
 except ValueError:
@@ -44,7 +44,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
-    ADMINS=[]
+    ADMINS=[6714425316, 5468078784, 5347055085]
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
